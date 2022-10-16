@@ -18,7 +18,7 @@ return message.reply("Belirtilen isimi bulamadım.")
 })
 let embed = new EmbedBuilder()
 .setTitle(covid+" Adının bilgileri")
-.addFields{
+.addFields(
 { name: "Ad:", value: fetchedDatas.ad },
 { name: "Anlam:", value: fetchedDatas.anlam },
 { name: "Cinsiyet", fetchedDatas.anlam },
